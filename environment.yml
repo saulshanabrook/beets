@@ -1,0 +1,14 @@
+name: beets
+channels:
+  - conda-forge
+dependencies:
+  - pip:
+      - beetcamp
+      - python3-discogs-client
+      - pylast
+  - beets
+  - pyacoustid
+  - requests
+  - pip
+variables:
+  BEETSDIR: ~/p/beets
