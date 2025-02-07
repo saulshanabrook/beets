@@ -1,13 +1,24 @@
-To create the environment:
+To install the environment:
 
+```bash
+uv tool install --with beetcamp --with python3-discogs-client --with pylast --with pyacoustid --with requests --with pip beets
 ```
-conda env create -f environment.yml
+
+To run:
+
+```bash
+beet import ...
+```
+
+To upgrade:
+
+```bash
+uv tool upgrade beets
 ```
 
 
-To activate the environment:
+To run
 
-```
-conda activate beets
+```bash
 beet import ...
 ```
